@@ -1,0 +1,185 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4aa9e1df-9034-415d-a7e5-0c5849c83c87")
+	(paper "A4")
+	(title_block
+		(title "Protection & Rectification")
+	)
+	(lib_symbols)
+	(sheet
+		(at 5.08 703.58)
+		(size 295.91 163.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2597a5c9-6c0a-464a-b3c7-74f356b6b20e")
+		(property "Sheetname" "Output"
+			(at 5.08 702.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Output.kicad_sch"
+			(at 5.08 867.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AXIOM_Charger"
+				(path "/4aa9e1df-9034-415d-a7e5-0c5849c83c87"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 3.81 251.46)
+		(size 293.37 162.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "487bc675-4a06-449b-9a7c-f5ecb29f6446")
+		(property "Sheetname" "AC Input Filtering & Protection"
+			(at 3.81 250.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AC_input_filtering_&_protection.kicad_sch"
+			(at 3.81 414.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AXIOM_Charger"
+				(path "/4aa9e1df-9034-415d-a7e5-0c5849c83c87"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 7.62 902.97)
+		(size 287.02 85.09)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51bfd95a-41ec-400f-b449-8f0d2f82c050")
+		(property "Sheetname" "Controller Card"
+			(at 7.62 902.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller_card.kicad_sch"
+			(at 7.62 988.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AXIOM_Charger"
+				(path "/4aa9e1df-9034-415d-a7e5-0c5849c83c87"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 1.27 454.66)
+		(size 300.99 210.82)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98fc488f-4b24-4611-9bcc-da7eff5ce5d1")
+		(property "Sheetname" "Switching"
+			(at 1.27 453.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AXIOM_Switching.kicad_sch"
+			(at 1.27 666.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AXIOM_Charger"
+				(path "/4aa9e1df-9034-415d-a7e5-0c5849c83c87"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "0")
+		)
+	)
+	(embedded_fonts no)
+)
